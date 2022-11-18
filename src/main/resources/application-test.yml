@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mariadb://127.0.0.1:3306/dockerapp_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul
-    username: root
-    password: root
+    url: jdbc:mariadb://127.0.0.1:3306/dockerapp_db__test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul
+    username: dongminlocal
+    password: 1234
   jpa:
     hibernate:
       ddl-auto: none
