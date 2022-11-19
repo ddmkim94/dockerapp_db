@@ -1,5 +1,5 @@
 spring:
   profiles:
-    active: dev
+    active: ${activeProfile:dev} # 환경변수 activeProfile이 있으면 넣고, 아니면 dev로 세팅
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
