@@ -13,7 +13,7 @@ public class DevInitData {
     @Bean
     public CommandLineRunner initDevData(ArticleService articleService) {
         return args -> {
-            articleService.write("제목1");
+            articleService.write("DRX 데프트 남아줘 제발");
             articleService.write("제목2");
             articleService.write("DRX 제카 남아줘 제발");
         };
