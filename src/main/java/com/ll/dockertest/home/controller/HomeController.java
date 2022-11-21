@@ -10,6 +10,6 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String showMain() {
-        return "<h1>도커로 앱 빌드해보기!!</h1>";
+        return "<h1>Dockerfile, docker-compose.yml</h1>";
     }
 }
