@@ -15,6 +15,7 @@ public class DevInitData {
         return args -> {
             articleService.write("제목1");
             articleService.write("제목2");
+            articleService.write("DRX 제카 남아줘 제발");
         };
     }
 }
